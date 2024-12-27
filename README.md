@@ -5,6 +5,8 @@ In this video, we uncover the hidden dangers of using `innerHTML`, from major se
 
 ---
 
+### YouTube Video: [innerHTML Tutorial](https://www.youtube.com/watch?v=LA7udFGXZOw)
+
 ## Testing `innerHTML` Security and Behavior
 
 Follow these steps to experiment with `innerHTML` and observe its impact:
