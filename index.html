@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Section with innerHTML Issue</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> <!-- External JavaScript file -->
+</head>
+<body>
+
+<header id="main-header">
+    <h1 id="site-title">Welcome to My Website</h1>
+    <p id="intro-text">This is a brief introduction to the site.</p>
+</header>
+
+<section id="about-us">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis mi a est laoreet, sed gravida ipsum tristique.</p>
+    <p>Mauris ac felis at arcu efficitur pharetra. Sed facilisis magna vel risus interdum, nec varius felis fermentum.</p>
+</section>
+
+<div id="busy-indicator" class="busy-indicator" style="display: none;">
+    <div class="spinner"></div>
+    <p>Processing... Please wait.</p>
+</div>
+
+<section id="our-services">
+    <h2>Our Services</h2>
+    <p>Proin mollis, lacus in elementum faucibus, ligula massa varius neque, ut pharetra orci arcu sed felis.</p>
+    <p>Suspendisse sit amet purus sed odio ullamcorper eleifend sit amet in turpis. Donec id purus consequat, fringilla lacus id, scelerisque purus.</p>
+</section>
+
+<div class="buttons">
+    <button type="button" onclick="addWithInnerHTML()">InnerHTML</button>
+    <button type="button" onclick="addWithAppendChild()">addAppendChild</button>
+</div>
+
+
+<section id="comment-section">
+    <h2>Comments</h2>
+    <form id="comment-form">
+        <label for="user-comment">Post a comment:</label>
+        <textarea id="user-comment" rows="4" cols="50" placeholder="Type your comment here..."></textarea>
+        <br>
+        <button type="button" onclick="postComment()">Submit</button>
+    </form>
+    <div id="comment-list">
+        <h3>All Comments:</h3>
+    </div>
+</section>
+
+<footer id="main-footer">
+    <p>Contact us: <a href="mailto:email@example.com">email@example.com</a> | Phone: (123) 456-7890</p>
+</footer>
+
+</body>
+</html>

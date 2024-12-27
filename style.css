@@ -1,0 +1,135 @@
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+#main-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#site-title {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#intro-text {
+    font-size: 1.2em;
+}
+
+/* About Us Section */
+#about-us {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about-us h2 {
+    color: #4CAF50;
+}
+
+/* Our Services Section */
+#our-services {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#our-services h2 {
+    color: #4CAF50;
+}
+
+.buttons {
+    padding: 20px;
+}
+
+#buttons button {
+    margin-right: 20px;
+}
+
+/* Footer styling */
+#main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#main-footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#main-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Comment section styling */
+#comment-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 20px 160px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#comment-form textarea {
+    max-width: 98%;
+    min-width: 98%;
+    min-height: 80px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+
+.busy-indicator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; /* Add margin for better spacing */
+    padding: 20px;
+    border: 1px solid #ccc; /* Optional: Add a border */
+    background-color: white; /* Optional: Light background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+.spinner {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+button {
+    cursor: pointer;
+}
+
