@@ -5,7 +5,7 @@ In this video, we uncover the hidden dangers of using `innerHTML`, from major se
 
 ---
 
-### YouTube Video: [innerHTML Tutorial](https://www.youtube.com/watch?v=LA7udFGXZOw)
+### YouTube Video: [innerHTML Tutorial](https://www.youtube.com/watch?v=LA7udFGXZOw){:target="_blank"}
 
 ## Testing `innerHTML` Security and Behavior
 
